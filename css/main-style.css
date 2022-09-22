@@ -1,0 +1,176 @@
+body{
+    font-family: "montserrat" sans-serif ;
+    line-height: 1 7;
+    
+}
+#title{
+    background-color: #ff4368;
+   
+}
+/* Heading section */
+h1{
+    font-family: "Montserrat" ;
+    font-size: 2.5rem;
+   
+    color: #ffffff;
+}
+h2{
+    font-family: "montserrat"  ;
+   color: #ffffff;
+   font-size: 2rem;
+}
+h3{
+    font-family: "montserrat" ;
+    font-size: 1.3rem;
+   
+    text-align: center;
+    
+}
+.container-fluid{
+     padding: 3% 15%;
+    
+
+}
+/* Nav section */
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+.navbar{
+    padding-bottom: 3.5rem;
+    font-family: "ubuntu";
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    padding: 1.2rem;
+    font-family: "montserrat";
+    font-weight: lighter;
+    font: 1em sans-serif;
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+    font-family: "montserrat";
+    font-weight: lighter;
+    font: 1em sans-serif;
+
+
+}
+.title-img{
+   
+    transform: rotate(25deg);
+    position: absolute;
+    height: 80%;
+}
+
+
+.la{
+  
+    border: 2px;
+    text-align: center;
+    
+}
+.la:hover{
+    border: 2px solid blue;
+
+}
+
+#features{
+   
+    padding: 7% 15%;
+    text-align: center;
+    background-color:#ffffff;
+    height: 40%;
+   position: relative;
+   z-index: 1;
+    
+    
+}
+.pa2{
+    color: #8f8f8f;
+    font-weight: lighter;
+    font: 1em sans-serif;
+   
+}
+.ferry{
+    color: #ef8172;
+    padding-bottom: 16px;
+  
+   
+    
+}
+.ferry:hover{
+    color: #ff4c68;
+}
+.row{
+    padding: 30px 0;
+}
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffffff;
+ 
+}
+
+.imgdog{
+    width: 10%;
+    border-radius: 100%;
+}
+#press{
+    padding: 3%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffffff;
+}
+.logoo{
+    width: 15%;
+    margin: 20px 20px 15px 20px;
+}
+.roll{
+    color: #000;
+    
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-cl{
+    padding: 3% 2%;
+}
+.ll{
+    color: #000;
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+#ctat{
+    font-family: "montserrat" black ;
+    font-size: 2rem;
+   color: #ffffff;
+    text-align: center;
+    line-height: 70px;
+    
+}
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+
+
+
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
